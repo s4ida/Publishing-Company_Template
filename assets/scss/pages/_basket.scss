@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#basketdiv{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    font-weight: bolder;
+    select{
+        color: $main-color;
+        font-weight: bolder;
+      
+    padding: 10px;
+
+        margin-top: 10px;
+        margin-bottom: 30px;
+        color: black;
+    }
+    input{
+        
+        color: $main-color;
+        font-weight: bolder;
+       
+    padding: 10px;
+
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    button{
+       
+        color: $main-color;
+        font-weight: bolder;
+    
+    padding: 10px;
+        border: 3px solid $main-color;
+                    }
+                    button:hover{
+                     
+                     
+                        font-weight: bolder;
+                   background-color: $main-color;
+                   transition: 0.5s;
+
+                    }
+    #abc{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        .boxDiv{
+            width: 20%;
+            text-align: center;
+            font-weight: bolder;
+        }
+        .myDiv{
+            width: 20%;
+            text-align: center;
+            font-weight: bolder;
+        }
+        .sortbox{
+            width: 20%;
+            text-align: center;
+            font-weight: bolder;
+        }
+    }
+}
